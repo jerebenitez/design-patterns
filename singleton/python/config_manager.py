@@ -7,7 +7,7 @@ import os
 
 class SingletonMeta(type):
     """
-    source: https://refactoring.guru/design-patterns/singleton/python/example#example-1
+    https://refactoring.guru/design-patterns/singleton/python/example#example-1
     """
     _instances = {}
     _lock: Lock = Lock()
