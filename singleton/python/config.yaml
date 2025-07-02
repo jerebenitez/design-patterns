@@ -1,0 +1,21 @@
+app:
+  name: "MyApp"
+  environment: "production"
+  version: "1.0.0"
+
+logging:
+  level: "INFO"
+  file: "/var/log/myapp.log"
+  format: "%(asctime)s - %(levelname)s - %(message)s"
+
+database:
+  host: "localhost"
+  port: 5432
+  user: "admin"
+  password: "secret"
+  name: "myapp_db"
+
+features:
+  enable_cache: true
+  enable_metrics: false
+  retry_attempts: 3
